@@ -1,0 +1,3 @@
+# Needs-based recommendation system
+
+Several supervised learning techniques (e.g. logistic regression) are tested in order to successfully classify clients data from a bank. The dataset `Needs.xls` contains $5000$ samples related to as many clients. A total of $7$ features (excluding the <code>ID</code> column), both categorical and numerical, describe the clients. The last two columns, <code>IncomeInvestment</code> and <code>AccumulationInvestment</code>, are the two labels. Two different classifiers are built for the two labels.
