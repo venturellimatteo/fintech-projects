@@ -1,0 +1,3 @@
+# Clients Segmentation
+
+Several unsupervised learning techniques are tested in order to successfully segment clients data from a bank. The dataset `BankClients.xlsx` contains $5000$ samples related to as many clients. A total of $18$ features, both categorical and numerical, describe the clients. PCA and t-SNE are exploited to inspect data, and different clustering techniques (e.g. k-medoids, DBSCAN, OPTICS, GMM) are employed, showing interesting results. 
