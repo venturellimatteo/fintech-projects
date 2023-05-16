@@ -1,0 +1,66 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ Input (InputLayer)          [(None, 50, 10)]          0         
+                                                                 
+ LSTM1 (LSTM)                (None, 50, 8)             608       
+                                                                 
+ LSTM2 (LSTM)                (None, 4)                 208       
+                                                                 
+ dropout1 (Dropout)          (None, 4)                 0         
+                                                                 
+ classifier (Dense)          (None, 32)                160       
+                                                                 
+ dropout2 (Dropout)          (None, 32)                0         
+                                                                 
+ output (Dense)              (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 1009 (3.94 KB)
+Trainable params: 1009 (3.94 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Accuracy:	0.842
+Recall:		0.793
+Precision:	0.442
+F1score:	0.568
+True Neg:	73.87%
+False Pos:	13.06%
+False Neg:	2.70%
+True Pos:	10.36%
+
+
+
+
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ Input (InputLayer)          [(None, 50, 10)]          0         
+                                                                 
+ LSTM1 (LSTM)                (None, 50, 8)             608       
+                                                                 
+ LSTM2 (LSTM)                (None, 4)                 208       
+                                                                 
+ classifier (Dense)          (None, 32)                160       
+                                                                 
+ output (Dense)              (None, 1)                 33        
+                                                                 
+=================================================================
+Total params: 1009 (3.94 KB)
+Trainable params: 1009 (3.94 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+Accuracy:	0.892
+Recall:		0.448
+Precision:	0.619
+F1score:	0.520
+True Neg:	83.33%
+False Pos:	3.60%
+False Neg:	7.21%
+True Pos:	5.86%
+
+
+
+
