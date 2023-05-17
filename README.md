@@ -6,4 +6,4 @@ Brief description of the projects:
 2. **Needs-based recommendation system**: the goal of the second business case is to build a recommendation system which predicts whether a new client of a bank is inclined to *income investments* or *accumulation investments* and assign different products to each client based on the prediction.
 3. **Anomaly detection**: the goal of the third business case is to develop an anomaly detection algorithm which is able to recognize market crisis periods and to build a virtual portfolio exploiting the market anomaly detection capabilities of the model.
 
-The projects were developed as python notebooks and the first two are supposed to be run in a local python notebook IDE (e.g. Jupyter Notebook and Visual Studio Code), whereas the third one was developed within Google Colab in order to exploit Google GPU for neural network training.
+The projects were developed as python notebooks and are supposed to be run in a local python notebook IDE.
